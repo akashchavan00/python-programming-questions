@@ -31,3 +31,14 @@ You can also set default values for parameters in the __init__() method:
     print(p1.name, p1.age)
     print(p2.name, p2.age)
 
+The init method can have as many parameters as you need
+
+
+Python Self Parameter:
+The self paramter is a reference to the current instance of the class
+It is used to access properties and methods that belong to that class.
+The self paramter must be the first parameter of any method in the class.
+Without self python would not know which object's properties you want to access.
+It does not need to be named self you can call it whatever you like but it has to be the first parameter of any method in the class.
+While you can use a different name, it is strongly recommended to use self as it is the convention in Python and makes your code more readable to others.
+We can also call other methods within the class using self.
